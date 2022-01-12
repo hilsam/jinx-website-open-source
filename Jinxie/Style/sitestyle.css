@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* Jinxie Website */
+
+/* This rule will style the main page body */
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+}
+#edges {
+  background-color: #f0f0e9;
+  color: black;
+  margin: 2px;
+  background-repeat: repeat-y;
+}
+p {
+  font-size: 1.3em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Arial";
+  font-weight: bold;
+}
+h1 {
+  color: black;
+  font-size: 1.7em;
+}
+h2 {
+  color: #000000;
+  font-size: 1.2em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #889a9c;
+}
+h3 {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+/* hyperlink rules */
+a {
+  color: #148f84;
+}
+a:link {
+  color: #148f84;
+}
+a:visited {
+  color: #148f84;
+}
+a:hover {
+  color: #148f84;
+}
+a:active {
+  color: #148f84;
+}
+#footer a:hover {
+  color: red;
+}
+#footer a {
+  color: white;
+}
+/* Containers */
+#main_content {
+  float: right;
+  width: 65%;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+#sidebar {
+  color: #889a9c;
+  font-size: small;
+  font-variant: small-caps;
+  line-height: 1.2;
+  padding-right: 10px;
+  border-right: #889a9c 1px solid;
+  width: 200px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+#footer {
+  clear: both;
+  margin: 0px;
+  font-size: small;
+  text-align: center;
+  color: black;
+  background-color: #6699be;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+/* Banner */
+#banner {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  height: 230px;
+  background-color: #6699be;
+  background-image: url(Jinxiebanner.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  object-fit: contain;
+}
+#banner h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 70px;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-style: arial;
+}
+#banner h2 {
+  color: black;
+  border: 0;
+  font-size: 17px;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-left: 25px;
+}
+/* Navigation Bar */
+#navigation ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-variant: normal;
+  font-size: 1.2em;
+}
+#navigation li {
+  list-style-type: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#navigation a {
+  color: #148f84;
+}
+#navigation a:hover {
+  color: #ad9676;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ad9676;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ad9676;
+  padding-left: 5px;
+}
